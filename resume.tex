@@ -1,0 +1,50 @@
+% Definitions
+\newlength{\outerbordwidth}
+\setlength{\outerbordwidth}{3pt}
+\newlength{\itemseppts}
+\setlength{\itemseppts}{-5pt}
+\newlength{\vspacepts}
+\setlength{\vspacepts}{7pt}
+
+% Settings
+  % Document Style
+  \documentclass[letterpaper,11pt]{article}
+  \pagestyle{empty}
+  \raggedbottom
+  \raggedright
+
+  % Packages
+  \usepackage[top=0.75in,bottom=0.75in,left=0.75in,right=0.75in]{geometry}
+  %\usepackage[cm]{fullpage}
+  \usepackage[svgnames]{xcolor}
+
+  % Lengths
+  \setlength{\evensidemargin}{-0.25in}
+  \setlength{\headheight}{-0.25in}
+  \setlength{\headsep}{0in}
+  \setlength{\paperheight}{11in}
+  \setlength{\paperwidth}{8.5in}
+  \setlength{\tabcolsep}{0in}
+  \setlength{\textheight}{9.75in}
+  \setlength{\textwidth}{7in}
+  \setlength{\topmargin}{-0.3in}
+  \setlength{\topskip}{0in}
+  \setlength{\voffset}{0.1in}
+
+% Document
+\begin{document}
+  \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+    \textbf{\Large Mark W. Murphy} & \textbf{\today} \\
+    \small{murphy.mark.w@gmail.com} & \small{(256)-369-9966} \\
+  \end{tabular*}
+
+  \vspace{\vspacepts}
+  \input{sections/education}
+  \vspace{\vspacepts}
+  \input{sections/work}
+  \vspace{\vspacepts}
+  \input{sections/publications}
+  \vspace{\vspacepts}
+  \input{sections/skills}
+
+\end{document}
