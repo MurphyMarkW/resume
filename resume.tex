@@ -5,7 +5,6 @@
 \usepackage[total={7in,10in}]{geometry}
 \usepackage[svgnames]{xcolor}
 \usepackage{tabularx}
-\usepackage{datetime}
 
 % Definitions
 % ===========
@@ -16,9 +15,6 @@
 \newcolumntype{L}{>{\raggedright\arraybackslash}l}
 \newcolumntype{R}{>{\raggedleft\arraybackslash}X}
 
-\newdateformat{monthyeardate}{%
-    \monthname[\THEMONTH], \THEYEAR}
-
 % Style Settings
 % ==============
 \pagestyle{empty} % Turn off page numbering.
@@ -28,14 +24,18 @@
 % ========
 \begin{document}
     \topskip35pt
+    \begin{small}
 
     \begin{tabularx}{\textwidth}{L R}
-        \textbf{\Large Mark W. Murphy} & \textbf{\monthyeardate\today} \\
-        \small{github.com/murphymarkw} & \small{murphy.mark.w@gmail.com} \\
+        \large\textbf{Mark W. Murphy} & \textbf{\today} \\
+        github.com/murphymarkw & murphy.mark.w@gmail.com \\
     \end{tabularx}
 
+    \input{sections/statement}
     \input{sections/education}
     \input{sections/work}
     \input{sections/publications}
-    \input{sections/keywords}
+%    \input{sections/keywords}
+
+    \end{small}
 \end{document}
