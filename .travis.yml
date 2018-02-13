@@ -5,4 +5,4 @@ addons:
     - latex-xcolor
 
 script:
-    - pdflatex -halt-on-error resume.tex
+    - pdflatex -halt-on-error -interaction=nonstopmode resume.tex
