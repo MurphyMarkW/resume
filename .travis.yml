@@ -5,4 +5,4 @@ addons:
     - texlive-latex-extra
 
 script:
-    - pdflatex resume.tex
+    - pdflatex -halt-on-error resume.tex
