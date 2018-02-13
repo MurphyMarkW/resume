@@ -1,0 +1,7 @@
+addons:
+  apt:
+    packages:
+    - texlive-latex-base
+
+script:
+    - pdflatex resume.tex
