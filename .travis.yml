@@ -2,6 +2,7 @@ addons:
   apt:
     packages:
     - texlive-latex-base
+    - texlive-latex-extra
 
 script:
     - pdflatex resume.tex
