@@ -13,4 +13,5 @@ deploy:
     secure: qi9rIE0qRLTBNawk9tIoUoObt98NHsj42AjmsvdjzcXeAhSBZE4cxatiQLtUIBLak7yIe2kUHOjTBFeJ1J26kQcgsYAELcyMEFw3rCfpwWuu8smIx48xFf/P26/qfNv0n3B13b4cOpWcw89OqG5EchVLq2BF/ljMUsoeexiap10=
   file: resume.pdf
   on:
+    branch: master
     repo: MurphyMarkW/resume
