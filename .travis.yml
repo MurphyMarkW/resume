@@ -1,8 +1,16 @@
 addons:
   apt:
     packages:
-    - texlive-latex-base
-    - latex-xcolor
+      - texlive-latex-base
+      - latex-xcolor
 
 script:
-    - pdflatex -halt-on-error -interaction=nonstopmode resume.tex
+  - pdflatex -halt-on-error -interaction=nonstopmode resume.tex
+
+deploy:
+  provider: releases
+  api_key:
+    secure: qi9rIE0qRLTBNawk9tIoUoObt98NHsj42AjmsvdjzcXeAhSBZE4cxatiQLtUIBLak7yIe2kUHOjTBFeJ1J26kQcgsYAELcyMEFw3rCfpwWuu8smIx48xFf/P26/qfNv0n3B13b4cOpWcw89OqG5EchVLq2BF/ljMUsoeexiap10=
+  file: resume.pdf
+  on:
+    repo: MurphyMarkW/resume
