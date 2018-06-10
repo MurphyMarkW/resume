@@ -3,6 +3,7 @@ language: c
 
 addons:
   apt:
+    update: true
     packages:
       - aspell
       - aspell-en
