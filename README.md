@@ -5,7 +5,7 @@ Mark's Résumé
 Hey there! This is my resume.
 
 #### Why is this sitting in git?
-Well, because it's written in LaTeX, tested by `aspell`, compiled by pdflatex, and then distributed. All of which sound an awful lot like phases of a program's lifecycle!
+Well, because it's written in LaTeX, tested by `aspell`, compiled by `pdflatex`, and then distributed. All of which sound an awful lot like phases of a program's lifecycle!
 
 #### Why is there only one release?
 Unlike a normal software package, I don't really want to distribute out of date resumes! To avoid that, the pipeline just overwrites the current release when the built commit is tagged with `current`. This also allows me to make changes to the resume, check that everything passes tests and builds, without releasing something that's not yet ready.
