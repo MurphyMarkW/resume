@@ -5,17 +5,10 @@ Mark's Résumé
 Hey there! This is my resume.
 
 #### Why is this sitting in git?
-Well, because it's written in LaTeX, which is compiled by pdflatex, produces a PDF artifact, that then needs to be distributed. All of which sound an awful lot like phases of a program's lifecycle!
+Well, because it's written in LaTeX, tested by `aspell`, compiled by pdflatex, and then distributed. All of which sound an awful lot like phases of a program's lifecycle!
 
-#### So how does the build process for a résumé work?
-Pretty much the same as you might expect for any piece of software.
-- Author makes changes to the LaTeX source.
-- Author compiles and runs tests locally.
-- Author commits and pushes changes to the repository.
-- Changes are merged to mainline and tagged for release.
-- Pipeline detects changes.
-    - Clones the repository.
-    - Tests for defects (aspell, diction).
-    - Compiles source code (pdflatex).
-- Pipeline tags the artifacts (resume.pdf), and uploads artifacts (project releases).
-- Downstream processes use the new artifact (I upload the most recent resume.pdf when applying to places).
+#### Why is there only one release?
+Unlike a normal software package, I don't really want to distribute out of date resumes! To avoid that, the pipeline just overwrites the current release when the built commit is tagged with `current`. This also allows me to make changes to the resume, check that everything passes tests and builds, without releasing something that's not yet ready.
+
+#### Can I fork this for my own resume?
+Absolutely! Just please edit the LaTeX to contain your own resume. ;)
