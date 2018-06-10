@@ -6,6 +6,8 @@ Mark's Résumé
 
 Hey there! This is my resume.
 
+You can download the latest version by clicking the release badge, or by heading over to the releases page!
+
 #### Why is this sitting in git?
 Well, because it's written in a flat-text typesetting system called LaTeX, changes to the resume can be tracked and managed using the same tools as any other source code.
 And also because it's tested by `aspell`, compiled by `pdflatex`, and then distributed.
