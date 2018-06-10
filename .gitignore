@@ -1,4 +1,7 @@
-*.log
-*.aux
+resume.log
+resume.aux
+resume.pdf
+resume.out
+words.dict
+
 *.swp
-*.pdf
