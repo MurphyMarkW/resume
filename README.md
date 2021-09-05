@@ -1,7 +1,7 @@
 Mark's Résumé
 ======
 ![language LaTeX](https://img.shields.io/badge/language-LaTeX-lightgrey.svg?longCache=true&style=flat)
-[![Build Status](https://travis-ci.org/MurphyMarkW/resume.svg?branch=current)](https://travis-ci.org/MurphyMarkW/resume)
+[![Build Status](https://app.travis-ci.com/MurphyMarkW/resume.svg?branch=master)](https://app.travis-ci.com/MurphyMarkW/resume)
 
 Hey there! This is my resume.
 
