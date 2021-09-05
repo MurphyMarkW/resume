@@ -5,3 +5,8 @@ resume.out
 words.dict
 
 *.swp
+
+
+# Added by cargo
+
+/target
