@@ -1,5 +1,18 @@
 \begin{tabularx}{\textwidth}{L}
-    \textbf{WORK EXPERIENCE}
+    \textbf{RECENT WORK EXPERIENCE}
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{L R}
+    \normalsize\textit{Cellular Longevity, dba Loyal} & San Francisco, CA \\
+    \hspace{10pt}Senior Data Engineer & September 2021 --- Current \\
+\end{tabularx}
+\begin{tabularx}{\textwidth}{X}
+    \hspace{10pt}Designed and built data platform and backend APIs. Built and optimized bioinformatics pipelines.
+    \begin{itemize}
+        \itemsep\itemseppts
+        \item[-] Acted as SME for bioinformatics tooling and pipelines development.
+        \item[-] Leveraged Terraform to build and managed AWS infrastructure. Migrated existing resources into AWS ecosystem.
+    \end{itemize}
 \end{tabularx}
 
 \begin{tabularx}{\textwidth}{L R}
@@ -7,8 +20,7 @@
     \hspace{10pt}Infrastructure Engineer & February 2020 --- July 2021 \\
 \end{tabularx}
 \begin{tabularx}{\textwidth}{X}
-    \vspace{1pt}
-    Head of software infrastructure team. Led company-wide network, storage, compute, and security initiatives.
+    \hspace{10pt}Head of software infrastructure team. Led company-wide network, storage, compute, and security initiatives.
     \begin{itemize}
         \itemsep\itemseppts
         \item[-] Acted as SME for networking, storage, compute, and digital security, for both on-prem and AWS. Mentored both technical and non-technical team members in software development practices, SDLC, and developer resources.
@@ -24,8 +36,7 @@
     \hspace{10pt}Systems \& Software Engineer & September 2016 --- February 2020 \\
 \end{tabularx}
 \begin{tabularx}{\textwidth}{X}
-    \vspace{1pt}
-    Member of systems and software engineering team. Built out SOC data platform, and supported red / blue team initiatives.
+    \hspace{10pt}Built out SOC data platform, and supported red / blue team initiatives.
     \begin{itemize}
         \itemsep\itemseppts
         \item[-] Developed services in Rust to ingest security-centric data for over 30k+ active virtual machines and devices. Deployed and managed a PostgreSQL database of findings with GraphQL access layer, allowing for rapid querying by SOC team members, and the identification and remediation of thousands of high-severity vulnerabilites.
@@ -40,12 +51,11 @@
     \hspace{10pt}Software Engineer & September 2013 --- June 2016 \\
 \end{tabularx}
 \begin{tabularx}{\textwidth}{X}
-    \vspace{1pt}
-    Member of software engineering team. Built internal backend systems, data access APIs, and analysis cluster / pipelines.
+    \hspace{10pt}Built internal backend systems, data access APIs, and analysis cluster / pipelines.
     \begin{itemize}
         \itemsep\itemseppts
-        \item[-] Designed and developed backend systems supporting the ingestion, storage, and processing of PiB-scale human genomic data. Analyzed 1PiB of compressed sequence files to identify and rectify inconsistencies and edge cases in datasets from half a dozen different sequencing institutions.
-        \item[-] Built data access REST APIs using the Python Flask framework, and client CLI and libraries using C/C++, Python, and Go. Leveraged genomics domain-specific knowledge to reduce average response size by 2 orders of magnitude.
-        \item[-] Diagnosed flaws in the Ceph Object Gateway (radosgw) storage system, leading to high levels ($>$30\% of S3 objects) of data corruption. Analyzed over 100TiB of corrupt objects, developing processes to identify and repair errors in-line with API requests, recovering $>$3 months of research and PiBs of analysis results.
+        \item[-] Built data access REST APIs using Python Flask, and client CLI and libraries using C/C++, Python, and Go.
+        \item[-] Build and managed on-prem infrastructure and deployment pipeline utilizing HashiCorp Consul and Saltstack.
+        \item[-] Diagnosed flaws in the Ceph Object Gateway (radosgw) storage system, leading to corruption of $>$30\% of S3 objects. Analyzed $>$100TiB of RADOS objects and developed API middleware to repair errors in-line with requests, recovering 3 months of research and PiBs of analysis results.
     \end{itemize}
 \end{tabularx}
