@@ -31,9 +31,11 @@ PiB
 PiBs
 PostgreSQL
 PrEMeR
+RADOS
 SDLC
 SFF
 SME
+Saltstack
 Terraform
 TiB
 Trimarchi
@@ -46,6 +48,7 @@ bioinformatics
 biomarkers
 centric
 datasets
+dba
 epigenetic
 et
 frontend
@@ -56,6 +59,7 @@ hypervisor
 infosec
 iss
 methylation
+middleware
 multi
 nucleotide
 prem
